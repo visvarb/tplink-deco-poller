@@ -29,13 +29,13 @@ This script connects to your TPLink Deco router, retrieves all connected devices
 
 ### Option 1: Using wget
 ```bash
-wget https://raw.githubusercontent.com/your-username/tplink-deco-poller/main/bootstrap.py
+wget https://raw.githubusercontent.com/visvarb/tplink-deco-poller/main/bootstrap.py
 sudo python3 bootstrap.py
 ```
 
 ### Option 2: Using curl
 ```bash
-curl -O https://raw.githubusercontent.com/your-username/tplink-deco-poller/main/bootstrap.py
+curl -O https://raw.githubusercontent.com/visvarb/tplink-deco-poller/main/bootstrap.py
 sudo python3 bootstrap.py
 ```
 
