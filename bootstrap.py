@@ -8,11 +8,11 @@ Download this single file and run it to automatically:
 3. Run the initial generation
 
 Usage:
-    wget https://raw.githubusercontent.com/your-username/tplink-deco-poller/main/bootstrap.py
+    wget https://raw.githubusercontent.com/visvarb/tplink-deco-poller/main/bootstrap.py
     sudo python3 bootstrap.py
 
 Or:
-    curl -O https://raw.githubusercontent.com/your-username/tplink-deco-poller/main/bootstrap.py
+    curl -O https://raw.githubusercontent.com/visvarb/tplink-deco-poller/main/bootstrap.py
     sudo python3 bootstrap.py
 """
 
@@ -29,7 +29,7 @@ from typing import List, Dict, Optional
 import json
 
 # Configuration - Update these URLs to match your GitHub repository
-GITHUB_REPO = "your-username/tplink-deco-poller"  # Update this!
+GITHUB_REPO = "visvarb/tplink-deco-poller"
 GITHUB_BRANCH = "main"
 GITHUB_RAW_BASE = f"https://raw.githubusercontent.com/{GITHUB_REPO}/{GITHUB_BRANCH}"
 

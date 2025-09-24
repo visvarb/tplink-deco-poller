@@ -122,7 +122,7 @@ tail -20 /srv/tplink-deco/log/output.log
 grep "TPLink Device List" -A 50 /etc/hosts
 
 # Re-run bootstrap to update all files
-wget -O bootstrap.py https://raw.githubusercontent.com/your-username/tplink-deco-poller/main/bootstrap.py
+wget -O bootstrap.py https://raw.githubusercontent.com/visvarb/tplink-deco-poller/main/bootstrap.py
 sudo python3 bootstrap.py
 ```
 
@@ -177,7 +177,7 @@ sudo systemctl restart AdGuardHome
 **To update to the latest version:**
 ```bash
 # Re-download and run bootstrap
-wget -O bootstrap.py https://raw.githubusercontent.com/your-username/tplink-deco-poller/main/bootstrap.py
+wget -O bootstrap.py https://raw.githubusercontent.com/visvarb/tplink-deco-poller/main/bootstrap.py
 sudo python3 bootstrap.py
 ```
 
