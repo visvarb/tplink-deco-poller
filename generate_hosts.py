@@ -15,7 +15,7 @@ else:
     TESTING = False
 
 
-def setup_logger(log_file="/var/log/TPLink/generate_hosts.log"):
+def setup_logger(log_file="/srv/tplink-deco/log/generate_hosts.log"):
     """Set up a rotating logger
     
     Args:
