@@ -9,7 +9,7 @@ This script connects to your TPLink Deco router, retrieves all connected devices
 - 🚀 **One-command installation** - Download and run a single script
 - 🔄 **Automatic updates** - Always downloads the latest version from GitHub
 - 🐍 **Virtual environment** - Isolated Python dependencies
-- ⏰ **Scheduled execution** - Runs automatically every hour via cron
+- ⏰ **Scheduled execution** - Runs automatically every 5 mins via cron
 - 🔒 **Secure configuration** - Password protection with proper file permissions
 - 📝 **Comprehensive logging** - Detailed logs with rotation
 - 🛡️ **Idempotent setup** - Safe to run multiple times
@@ -21,7 +21,7 @@ This script connects to your TPLink Deco router, retrieves all connected devices
 - **Root or sudo access**
 - **Internet connection** for downloading dependencies
 - **TPLink Deco router** with admin access
-- **Python 3.11+** (will be installed automatically if missing)
+- **Python 3.+** (will be installed automatically if missing)
 
 ## 🚀 Quick Installation
 
@@ -47,7 +47,7 @@ sudo python3 bootstrap.py
 - ✅ Install Python packages from requirements.txt
 - ✅ Set up directory structure at `/srv/tplink-deco/`
 - ✅ Configure proper file permissions
-- ✅ Create cron job for hourly execution
+- ✅ Create cron job for 5 minutely execution
 - ✅ Guide you through router credential setup
 - ✅ Optionally run the first hosts generation
 
@@ -100,7 +100,7 @@ After installation, you'll have:
 
 ## 🔄 Automation
 
-**The script runs automatically every hour** via cron job:
+**The script runs automatically every 5 mins** via cron job:
 ```bash
 # View current cron jobs
 crontab -l
