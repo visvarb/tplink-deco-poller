@@ -113,7 +113,7 @@ class TPLinkBootstrap:
     
     def install_system_dependencies(self) -> bool:
         """Install required system packages"""
-        packages = ["python3.11", "python3.11-venv", "python3.11-dev", "python3-pip", "curl", "wget"]
+        packages = ["python3", "python3-venv", "python3-dev", "python3-pip", "curl", "wget", "pip"]
         
         try:
             log_info("Checking system dependencies...")
