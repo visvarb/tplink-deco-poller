@@ -336,7 +336,7 @@ TPLINK_PASSWORD=your_router_password
         try:
             log_info("Setting up cron job...")
             
-            cron_job = "0 * * * * /srv/tplink-deco/run_generate_hosts.sh"
+            cron_job = "*/5 * * * * /srv/tplink-deco/run_generate_hosts.sh"
             
             # Get current crontab
             try:
